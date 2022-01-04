@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e1da94-7af2-40c0-b83c-71f3cb9ded2a" name="Default Changelist" comment="add accessible page home and secured page">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="68e1da94-7af2-40c0-b83c-71f3cb9ded2a" name="Default Changelist" comment="add gitignore">
+      <change afterPath="$PROJECT_DIR$/src/helpers/PrivateRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeycloakConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeycloakConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +22,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="234">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
-                <element signature="e#57#119#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/helpers/PrivateRoute.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -31,26 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/KeycloakConfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="52">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -88,6 +94,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jsx</find>
+      <find>keycloak</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,12 +104,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/KeycloakConfig.js" />
-        <option value="$PROJECT_DIR$/src/components/Nav.js" />
         <option value="$PROJECT_DIR$/src/pages/Home.js" />
         <option value="$PROJECT_DIR$/src/pages/SecuredPage.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/helpers/PrivateRoute.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/KeycloakConfig.js" />
+        <option value="$PROJECT_DIR$/src/components/Nav.js" />
       </list>
     </option>
   </component>
@@ -135,6 +143,11 @@
             <path>
               <item name="react-keycloak" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-keycloak" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-keycloak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-keycloak" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -142,6 +155,12 @@
               <item name="react-keycloak" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-keycloak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-keycloak" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-keycloak" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +217,7 @@
       <updated>1641222802912</updated>
       <workItem from="1641222808418" duration="1706000" />
       <workItem from="1641248719123" duration="5000" />
-      <workItem from="1641314798063" duration="2062000" />
+      <workItem from="1641314798063" duration="3926000" />
     </task>
     <task id="LOCAL-00001" summary="add accessible page home and secured page">
       <created>1641317000393</created>
@@ -207,17 +226,24 @@
       <option name="project" value="LOCAL" />
       <updated>1641317000394</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add gitignore">
+      <created>1641317387234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641317387235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3773000" />
+    <option name="totallyTimeSpent" value="5637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2942613" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2942613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -232,7 +258,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="GraphQL" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3299435" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
@@ -256,7 +282,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add accessible page home and secured page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add accessible page home and secured page" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.js">
@@ -269,24 +296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeycloakConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -297,13 +310,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#57#119#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="156">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -314,10 +324,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/helpers/PrivateRoute.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="130">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeycloakConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
